@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.izquierda{
+    text-align: left;
+}
+
+.derecha{
+    text-align: right;
+}
+/*--------Nosotros---------*/
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 1em;
+}
+
+.container {
+    margin-top: 2cm;
+}
+
+.image {
+    display: inline-block;
+    margin: 0 1cm;
+    vertical-align: top;
+}
+
+.text {
+    text-align: center;
+}
+/*--------Artículos--------*/
+/*--------parte1--------*/
+article {
+    text-align: center;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table td {
+    border: 1px solid #f5eeee;
+    padding: 10px;
+}
+td .text-left {
+    width: 33%;
+    margin-right: 3cm;
+}
+td .text-center {
+    width: 33%;
+}
+td .text-right {
+    width: 33%;
+    margin-right: 3cm;
+}
+.img {
+    max-width: 100px;
+}
+.justify-text{
+    text-align: justify;
+}
+/*--------footer--------*/
+footer {
+    background-color: #0c0c0b;
+    color: #fff;
+    padding: 10px;
+}
